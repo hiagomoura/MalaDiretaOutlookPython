@@ -60,7 +60,13 @@ Abra o arquivo: "script.py" e localize a variável chamada: **_"assunto"_** onde
 
 ### Escrevendo o corpo do email:
 
-Dentro do arquivo "script.py" localize a variável **_"email.HTMLBody"_** **dentro do espaço entre as três aspas duplas do início e do fim do texto, digite seu texto.** (Lembrando que para haver quebra de linha, é preciso adicionar as tags html de quebra de linha e/ou parágrafo: <p>Mensagem que quero que fique em um parágrafo</p> ou quebra de linha: <br>).
+Dentro do arquivo "script.py" localize a variável **_"email.HTMLBody"_** **dentro do espaço entre as três aspas duplas do início e do fim do texto, digite seu texto.** (Lembrando que para haver quebra de linha, é preciso adicionar as tags html de quebra de linha e/ou parágrafo:
+
+Exemplo:
+
+```html
+<p>Mensagem que quero que fique em um parágrafo</p>
+```
 
 ### Editando e/ou Adicionando anexos:
 
